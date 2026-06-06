@@ -192,7 +192,7 @@ def download():
 
     else:
         ydl_opts = {
-            "outtmpl": "%(playlist_title)s/%(playlist_index)s - %(title)s.%(ext)s",
+            "outtmpl": "%(playlist_title)s/%(title)s.%(ext)s",
             "noplaylist": False,
             "format": "bestaudio/best",
             "progress_hooks": [progress_hook],
